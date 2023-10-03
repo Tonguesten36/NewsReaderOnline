@@ -3,6 +3,7 @@ package vn.edu.usth.newsreaderonline;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -36,7 +37,11 @@ public class NewsRecycleViewAdapter extends RecyclerView.Adapter<NewsRecycleView
         Picasso.get().load(article.getUrlToImage())
                 .error(R.drawable.no_img)
                 .into(holder.imageView);
-
+        holder.itemView.setOnClickListener((view -> {
+            Intent intent = new Intent(view.getContext(),NewsReadingActivity.class);
+            intent.putExtra("url",article.getUrl());
+            view.getContext().startActivity(intent);
+        }));
     }
     //Clear the old article list and add new articles
     void updateArticleData(List<Article> articleData){
