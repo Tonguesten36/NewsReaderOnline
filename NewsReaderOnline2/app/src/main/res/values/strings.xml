@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NewsReaderOnline</string>
+
+    <string name="article_1_title">Global inflation fears as price rise toward 100$ a barrel</string>
+    <string name="article_1_author_and_date">NewsReaderOnline-  19/9/2023</string>
+
+    <string name="article_2_title">Kim Jong-un inspects strategic bombers in Russia</string>
+    <string name="article_2_author_and_date">NewsReaderOnline-  20/9/2023</string>
+
+    <!-- String resources for the articles' contents -->
+    <string name="article_1_content">As you know … in July, several member states expressed their incomprehension regarding the commission’s unilateral action on the conclusion of this [memorandum of understanding] and concerns about some of its contents,” Borrell wrote in a letter to Olivér Várhelyi, the European commissioner for neighbouring countries</string>
+    <string name="article_2_content">North Korea’s leader, Kim Jong-un, inspected nuclear-capable strategic bombers in Russia on Saturday, according to Russian state media, as he continued a trip that has raised fears of the two nations deepening their military ties against a common enemy, the United States.
+Mr. Kim arrived in Primorsky Krai, in Russia’s Far East, on Saturday morning traveling via his armored train. There, Sergei K. Shoigu, the defense minister, and other top Russian military officers showed him Russia’s hypersonic Kinzhal missile mounted on a MIG-31 jet, as well as three other key elements of Russia’s nuclear force: the Tu-95MS turboprop strategic bomber and Tu-160 and Tu-22M3 supersonic bombers, according to RIA Novosti, a Russian news outlet.
+When Mr. Shoigu visited Pyongyang in July, Mr. Kim took him to an exhibition of missiles and other weapons, raising fears that Russia was turning to North Korea for ammunition badly needed in its war against Ukraine. United States officials have repeatedly warned that North Korea was already shipping artillery shells and army rockets to Russia and that in return it wanted Russian technology to advance its own military capabilities.
+The prospect of such military exchanges presents a double challenge for Washington: Conventional weapons from North Korea could help Moscow prolong its invasion of Ukraine, while technical help from Russia would expand the North’s nuclear threat against the United States and its allies in the region, South Korea and Japan.</string>
+</resources>
