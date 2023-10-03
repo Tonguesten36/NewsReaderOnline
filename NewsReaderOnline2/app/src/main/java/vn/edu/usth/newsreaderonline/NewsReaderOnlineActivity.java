@@ -1,25 +1,19 @@
 package vn.edu.usth.newsreaderonline;
 
-import androidx.annotation.NonNull;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
+
 
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-import android.content.Intent;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.tabs.TabLayout;
 import com.kwabenaberko.newsapilib.NewsApiClient;
 import com.kwabenaberko.newsapilib.models.Article;
@@ -33,7 +27,7 @@ public class NewsReaderOnlineActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     List<Article> articleList = new ArrayList<>();
     NewsRecycleViewAdapter NewsAdapter;
-    TabLayout tabHot,tabBusiness,tabEntertainment,tabHealth,tabScience,tabTechnology,tabSports;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
