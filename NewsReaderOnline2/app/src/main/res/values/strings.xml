@@ -13,4 +13,13 @@
 Mr. Kim arrived in Primorsky Krai, in Russia’s Far East, on Saturday morning traveling via his armored train. There, Sergei K. Shoigu, the defense minister, and other top Russian military officers showed him Russia’s hypersonic Kinzhal missile mounted on a MIG-31 jet, as well as three other key elements of Russia’s nuclear force: the Tu-95MS turboprop strategic bomber and Tu-160 and Tu-22M3 supersonic bombers, according to RIA Novosti, a Russian news outlet.
 When Mr. Shoigu visited Pyongyang in July, Mr. Kim took him to an exhibition of missiles and other weapons, raising fears that Russia was turning to North Korea for ammunition badly needed in its war against Ukraine. United States officials have repeatedly warned that North Korea was already shipping artillery shells and army rockets to Russia and that in return it wanted Russian technology to advance its own military capabilities.
 The prospect of such military exchanges presents a double challenge for Washington: Conventional weapons from North Korea could help Moscow prolong its invasion of Ukraine, while technical help from Russia would expand the North’s nuclear threat against the United States and its allies in the region, South Korea and Japan.</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>
