@@ -17,6 +17,8 @@
         <activity
             android:name=".NewsReadingActivity"
             android:exported="false"/>
+        <activity android:name=".SettingActivity"
+            android:exported="false"/>
         <activity
             android:name=".NewsReaderOnlineActivity"
             android:exported="true">

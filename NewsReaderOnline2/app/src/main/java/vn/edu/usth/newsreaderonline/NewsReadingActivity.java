@@ -24,6 +24,10 @@ public class NewsReadingActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        if(webView.canGoBack()){
+            webView.goBack();
+        }else{
+            finish();
+        }
     }
 }
