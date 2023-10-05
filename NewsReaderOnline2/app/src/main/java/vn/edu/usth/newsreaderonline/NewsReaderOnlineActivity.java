@@ -3,12 +3,14 @@ package vn.edu.usth.newsreaderonline;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuItem;
 
 
-
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -37,6 +39,7 @@ public class NewsReaderOnlineActivity extends AppCompatActivity {
 
         //Match the tab with the appropriate tabLayout
         TabLayout tabLayout = findViewById(R.id.TabLayoutsMenu);
+
 
         //Set addOnTabSelectedListener to tabLayout: each tab item opens corresponding category
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
@@ -97,5 +100,21 @@ public class NewsReaderOnlineActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.bottom_nav_menu, menu);
         return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem menuItem){
+        int id = menuItem.getItemId();
+        if(id == R.id.BotNavHome){
+            Intent intent = new Intent(this, NewsReaderOnlineActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            startActivity(intent);
+            return true;
+        }else if(id == R.id.BotNavSettings) {
+            Intent intent = new Intent(this, SettingActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            startActivity(intent);
+            return true;
+        }
+        return super.onOptionsItemSelected(menuItem);
     }
 }
