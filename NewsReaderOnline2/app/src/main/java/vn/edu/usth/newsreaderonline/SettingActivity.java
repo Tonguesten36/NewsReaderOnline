@@ -35,7 +35,7 @@ public class SettingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_setting);
 
         darkModeSwitch = findViewById(R.id.setting4);
-
+        mAuth = FirebaseAuth.getInstance();
         //sharedPreferences is for saving theme mode when exiting the app
         sharedPreferences = getSharedPreferences("MODE", Context.MODE_PRIVATE);
         nightMode = sharedPreferences.getBoolean("night", false);
@@ -84,9 +84,10 @@ public class SettingActivity extends AppCompatActivity {
             return true;
         }else if(id == R.id.BotNavProfile){
             Intent intent;
+
             if(currentUser != null){
                 intent = new Intent(this, LoggedInActivity.class);
-
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP| Intent.FLAG_ACTIVITY_SINGLE_TOP);
             }else{
                 intent = new Intent(this, LogInActivity.class);
 
