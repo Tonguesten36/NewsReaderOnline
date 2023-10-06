@@ -8,7 +8,12 @@
     tools:context=".NewsReaderOnlineActivity"
     android:orientation="vertical">
 
-
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:queryHint="Search articles"
+        android:layout_gravity="center"
+        android:id="@+id/search_view"/>
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,6 +61,7 @@
                 android:id="@+id/Tab7Sports"/>
         </com.google.android.material.tabs.TabLayout>
     </HorizontalScrollView>
+
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
