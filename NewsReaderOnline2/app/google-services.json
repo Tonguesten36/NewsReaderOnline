@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "851550942223",
+    "project_id": "newsreaderlogin",
+    "storage_bucket": "newsreaderlogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851550942223:android:d542626f46cfdc638e9f7a",
+        "android_client_info": {
+          "package_name": "vn.edu.usth.newsreaderonline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB49GXF6uIrgLLlaP0a18hVgzt9Zz0XoY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

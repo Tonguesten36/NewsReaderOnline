@@ -40,6 +40,13 @@
             android:layout_height="70dp"
             android:text="Automatically use Cellular data: "
             android:textSize="20dp"/>
+        <Switch
+            android:id="@+id/setting4"
+            android:paddingLeft="30dp"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:text="Dark Mode: "
+            android:textSize="20dp"/>
 
     </LinearLayout>
 
